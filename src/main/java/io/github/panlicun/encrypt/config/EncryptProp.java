@@ -1,4 +1,4 @@
-package com.github.panlicun.encrypt.config;
+package io.github.panlicun.encrypt.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

@@ -1,4 +1,4 @@
-package com.github.panlicun.encrypt.annotation;
+package io.github.panlicun.encrypt.annotation;
 
 import java.lang.annotation.*;
 

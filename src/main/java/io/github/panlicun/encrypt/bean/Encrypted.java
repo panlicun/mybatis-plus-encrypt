@@ -1,7 +1,7 @@
-package com.github.panlicun.encrypt.bean;
+package io.github.panlicun.encrypt.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.github.panlicun.encrypt.annotation.FieldEncrypt;
+import io.github.panlicun.encrypt.annotation.FieldEncrypt;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

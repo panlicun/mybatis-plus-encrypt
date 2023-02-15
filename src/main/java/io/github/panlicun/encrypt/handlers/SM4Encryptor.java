@@ -1,4 +1,4 @@
-package com.github.panlicun.encrypt.handlers;
+package io.github.panlicun.encrypt.handlers;
 
 import cn.hutool.crypto.symmetric.SymmetricCrypto;
 import org.springframework.util.StringUtils;
