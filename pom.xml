@@ -22,7 +22,6 @@
         <license>
             <name>The Apache Software License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>actable</distribution>
         </license>
     </licenses>
 
@@ -36,7 +35,7 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:panlicun/mybatis-plus-encrypt.git</connection>
+        <connection>https://github.com/panlicun/mybatis-plus-encrypt.git</connection>
         <developerConnection>scm:git:https://github.com/panlicun/mybatis-plus-encrypty</developerConnection>
         <url>https://github.com/panlicun/mybatis-plus-encrypt</url>
         <tag>master</tag>
