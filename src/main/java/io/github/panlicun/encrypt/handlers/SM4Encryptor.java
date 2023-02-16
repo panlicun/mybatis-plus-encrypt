@@ -20,7 +20,6 @@ public class SM4Encryptor implements IEncryptor {
 
     @Override
     public String encrypt(String str) {
-        System.out.println(key);
         return sm4.encryptHex(str);
     }
 

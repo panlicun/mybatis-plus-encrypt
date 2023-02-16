@@ -20,7 +20,6 @@ public class DefaultEncryptor implements IEncryptor {
 
     @Override
     public String encrypt(String str) {
-        System.out.println(key);
         return SecureUtil.aes(key.getBytes()).encryptHex(str);
     }
 
