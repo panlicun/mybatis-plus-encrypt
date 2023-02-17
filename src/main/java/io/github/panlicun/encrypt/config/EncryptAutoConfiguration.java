@@ -58,7 +58,7 @@ public class EncryptAutoConfiguration {
     }
 
     private IEncryptor getEncrypt(EncryptProp encryptProp){
-        if (encryptProp.getType().equalsIgnoreCase(EncryptedType.DEFAULT.getType())) {
+        if (encryptProp.getType().equalsIgnoreCase(EncryptedType.AES.getType())) {
             return defaultEncryptor(encryptProp);
         } else if (encryptProp.getType().equalsIgnoreCase(EncryptedType.SM4.getType())) {
             return sm4Encryptor(encryptProp);

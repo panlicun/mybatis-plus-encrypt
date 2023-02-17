@@ -8,6 +8,7 @@ package io.github.panlicun.encrypt.enums;
 public enum EncryptedType {
 
     DEFAULT("default"),
+    AES("aes"),
     SM4("sm4");
 
     private final String type;
